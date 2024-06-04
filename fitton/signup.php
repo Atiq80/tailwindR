@@ -147,7 +147,7 @@
 
     <?php
 
-include("connect.php"); // Make sure connect.php contains your database connection details
+include("connect.php"); 
 
 if (isset($_POST["btn"])) {
 
