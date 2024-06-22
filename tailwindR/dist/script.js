@@ -85,6 +85,11 @@ window.onload = function() {
       'materials/main1.webp',
       'materials/main2.webp',
       'materials/main3.webp',
+      'materials/main5.webp',
+      'materials/m.webp',
+      'materials/o.webp',
+      'materials/s.webp',
+      'materials/u.webp',
       // Add more image URLs as needed
     ];
   
@@ -203,3 +208,15 @@ mainDiv.addEventListener('drop', function(e) {
         activeDraggable = null;
     }
 });
+
+
+
+
+
+
+
+
+
+
+
+
