@@ -154,32 +154,16 @@ document.querySelector('#showimages').addEventListener('click', toggleContent);
 
 
 
-function doFunction() {
-  gsap.registerPlugin(ScrollTrigger);
 
-  gsap.to("#insta", {
-    scrollTrigger: {
-      trigger: "#showmore",
-      start: "1% 6%",
-      end: "bottom 6%", // Adjust the end position
-      scrub: true, // Keep scrubbing for scroll-based animation
-    },
-    y: "440",
-    duration: 40, // Increase the duration
-    ease: "slow", // Your animation properties here
-  });
-}
 
-doFunction();
 
-document.getElementById("#showimages").onclick = doFunction;
 
-var el = document.getElementById("showimages");
-if (el.addEventListener) {
-  el.addEventListener("click", doFunction, false);
-} else if (el.attachEvent) {
-  el.attachEvent("onclick", doFunction);
-}
+
+
+
+
+
+
 
 
 
